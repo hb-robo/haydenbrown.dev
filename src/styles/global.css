@@ -29,6 +29,7 @@
 	font-style: normal;
 	font-display: swap;
 }
+* { box-sizing: border-box; }
 body {
 	font-family: 'Atkinson', sans-serif;
 	margin: 0;
@@ -43,10 +44,14 @@ body {
 	line-height: 1.7;
 }
 main {
-	width: 720px;
+	width: 960px;
 	max-width: calc(100% - 2em);
 	margin: auto;
 	padding: 3em 1em;
+	gap: 1rem; /* Spacing between items */
+    font-size: 1.25rem; /* Set base font size for main content */ /* Adjust as needed */
+	display: flex;
+    flex-wrap: wrap; /* Wrap items on smaller screens */
 }
 h1,
 h2,
@@ -84,7 +89,7 @@ a:hover {
 	color: var(--accent);
 }
 p {
-	margin-bottom: 1em;
+	margin-bottom: 0em;
 }
 .prose p {
 	margin-bottom: 2em;
@@ -126,7 +131,7 @@ hr {
 	border: none;
 	border-top: 1px solid rgb(var(--gray-light));
 }
-@media (max-width: 720px) {
+@media (max-width: 960px) {
 	body {
 		font-size: 18px;
 	}
