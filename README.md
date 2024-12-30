@@ -10,7 +10,7 @@ Built with Astro.js.
 3. New content is as simple as the addition of a Markdown file with some metadata
 
 ## TODO:
-
+- Migrate to TailwindCSS
 - Create and link proxy email address for :mailto requests
 - Finalize Blog post layout
 - Add dynamically calculated reading time as content metadata
