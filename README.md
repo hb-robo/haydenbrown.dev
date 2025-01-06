@@ -11,12 +11,9 @@ Built with Astro.js.
 
 ## TODO:
 - Create and link proxy email address for :mailto requests
-- Finalize Blog post layout
 - Add dynamically calculated reading time as content metadata
 - Add tags and content types to BlogPostPreview cards
 - Implement blog index filter by tag/type
-- Build out CV page layout
-- Implement accordions for CV sections
 - Fully furnish CV details
 - Implement dark mode
 - Import content from all across my backlog
