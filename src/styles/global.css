@@ -48,7 +48,6 @@ main {
 	max-width: calc(100% - 2em);
 	margin: auto;
 	padding: 3em 1em;
-	gap: 1rem; /* Spacing between items */
     font-size: 1.25rem; /* Set base font size for main content */ /* Adjust as needed */
 	display: flex;
     flex-wrap: wrap; /* Wrap items on smaller screens */
