@@ -9,12 +9,47 @@ tags:
   - 'criticism'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+Conservative game design
+* Obsession with history, familiarity, callbacks, etc
+* Romanticizing pastoralism, abstinence, and the virtues of war and physical strength
+* Restrictive ideas of women and what they can be in the world, coloring normal self-determination as "defiance"
+* Kingdoms based on real-life places, lovingly(?) flanderized
+* Leaving key character points to implication to avoid salient content, ie. Sylvando
+* Managed to find a plot point to make a young girl "actually much older"
+* Traditional Toriyama travel-the-world-collect-the-mulligans quest
+* Tolkien-esque morality with explicit good and evil
+* Valorizes royalty and ancestry to an insane degree, to the point that every cast member is either directly in line for a throne or sworn to protect one
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
+Act I - A jolly romp
+* Each character's combat style is a direct reflection of their personality and values
+    * Veronica is very powerful but cannot aid her companions, Serena is the exact opposite and overly deferential to the point of little offensive skill
+    * Sylvando is endlessly versatile, serving as curer and inflicter of status conditions
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
+Act II - bursting the bubble
+* Perhaps the single most interesting thing DQXI does with its narrative is utterly foil the well-to-do party of the original orb-collecting adventure. Right as the orbs are collected, Yggdrasil is entered, and the Luminary is about to obtain a sword of legend, they are interrupted by the Dark One and you watch the entire world die.
+* After a joyful 30-something hours in Erdrea, returning to liberated places and homes of friends is difficult. Nobody blames you for your failure directly, but it is plain to see the consequences
+* Everyone is separated, and they each have to find their own motivation to survive and reunite the party
+* This is the moment of the game where character arcs essentially hit their climax and they each become actualized
+    * In the wake of his guilt as a tool to the world's conqueror, Hendrik turns into a protector of the main continent, fortifying Cobblestone into a bastion, and he gives up his vendetta against the Luminary to help him restore peace to the land
+        * The people of the bastion, including Hero's own mother, encourage him to forgive both Hendrik and Carnelian for their misdeeds under influence, and judge them for their current actions
+    * Erik, a lifelong thief, faces his greatest failure and reveals (rather hokily) that he treasures the memories of the original quest more than anything else
+    * Jade builds resilience in a torture dimension - though learns very little, more just suffering for its own sake, which is still powerful as a function of player failure - and reconciles with her father
+    * Sylvando faces his father after years of leaving home for a life as an entertainer, only to be validated for his continued knightly values and his parade embraced and trained
+    * Serena loses Veronica entirely, forcing her to self-propel for the first time in her life, leading to her inheriting her sister's powers and fighting for her memory
+    * Rab is filled with memories of his old life as king, reliving the day his kingdom fell and his grandson was lost, leading to a spiritual awakening in Pang Lai
+    * Carnelian, fully divorced from Mordegon, vows his entire power and resources to helping you fell the villain
+    * Jasper's lifelong rivalry with Hendrik and the depth of his jealousy is revealed as motivation for his betrayal
+* Faced with overwhelming odds, the cast retrace the steps of Erdwin to forge their own Sword of Light now that they can no longer inherit it, a literally brilliant symbol of a selfmade destiny
+* Along the journey to forge the sword, a star falls out of the sky in dramatic fashion, but is sliced clean through by Mordegon shortly after and things end abruptly
+* When you finally do reassemble the cast, they're all stronger, with more purpose and individual strength than ever before, and you go to defeat Mordegon in the absolute peak of his powers, a multi-form battle deep in a floating fortress. You finish the job the hard way, and victory is sweeter knowing the cost
+* But victory isn't quite satisfying for the gang. They soon depart searching for another adventure and find little. Eventually they stumble on a method to perhaps revive Veronica from death, but it turns out to be a full-blown one-way time travel ticket for the Hero alone, losing everything gained after the failure at Yggdrasil, but with the chance to make things "right", and the Hero accepts, never to see these versions of his friends again
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+Act III - a lot to unpack
+* Returning with his power from the dark timeline, the Hero is more than strong enough to prevent the events at Yggdrasil from occurring, killing Jasper then and there and eventually slaying Mordegon in Heliodor Castle before he has the chance to power up by stealing the Sword of Light
+* Couldn't shake the feeling that this was less "earned", as it came by way of time traveling intervention and omniscience, and the world is evidently less impressed with you than when you overcame the odds in Act II
+* Suffering and death was prevented, and Veronica was never lost, but for what? This party is still the band of naive royalty from Act I. The pragmatism involved is morally sensible, but it leads to the unmaking of each character.
+* From a narrative perspective, the idea that this timeline is superior to the previous one is both probably true and leaves me with complicated feelings. The world of Act I was one so far removed from significant strife that they no longer even knew what the Luminary's prophecy was, and people were content to drink the Darkspawn conspiracy as a cheap explanation for their feelings of insecurity. Was that the world worth protecting? By the end of Act II, the entire world had learned to protect themselves and others, to band together with their communities for continued survival. The world you preserve still has yet to learn that lesson.
+* You revisit the plot points of each character in the new timeline by way of optional postgame content, and they all conveniently end in a less complicated manner, emphasizing the idea of this being the "best" timeline for each individual person. Veronica and Serena meet their ancestor together and become an actualized pair, instead of a single actualized Serena, so she never gets her arc of catching up to her sister and becoming a full-bodied person.
+* Some elements of "canonicity" persist, where in Calasmos inherits the title of the Dark One in Mordegon's absence. The meteor that Mordegon blinks away turns into another existential threat, though one the world decides you should handle by yourself. The kingdoms aid you, and the spirits of the original Erdwin party come to help you train, but there is no question about responsibility. You are the Hero, it's your job. Everyone else is just a bystander. 
+
