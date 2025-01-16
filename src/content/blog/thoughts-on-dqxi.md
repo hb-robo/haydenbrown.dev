@@ -9,16 +9,7 @@ tags:
   - 'criticism'
 ---
 
-Conservative game design
-* Obsession with history, familiarity, callbacks, etc
-* Romanticizing pastoralism, abstinence, and the virtues of war and physical strength
-* Restrictive ideas of women and what they can be in the world, coloring normal self-determination as "defiance"
-* Kingdoms based on real-life places, lovingly(?) flanderized
-* Leaving key character points to implication to avoid salient content, ie. Sylvando
-* Managed to find a plot point to make a young girl "actually much older"
-* Traditional Toriyama travel-the-world-collect-the-mulligans quest
-* Tolkien-esque morality with explicit good and evil
-* Valorizes royalty and ancestry to an insane degree, to the point that every cast member is either directly in line for a throne or sworn to protect one
+
 
 Act I - A jolly romp
 * Each character's combat style is a direct reflection of their personality and values
@@ -53,3 +44,58 @@ Act III - a lot to unpack
 * You revisit the plot points of each character in the new timeline by way of optional postgame content, and they all conveniently end in a less complicated manner, emphasizing the idea of this being the "best" timeline for each individual person. Veronica and Serena meet their ancestor together and become an actualized pair, instead of a single actualized Serena, so she never gets her arc of catching up to her sister and becoming a full-bodied person.
 * Some elements of "canonicity" persist, where in Calasmos inherits the title of the Dark One in Mordegon's absence. The meteor that Mordegon blinks away turns into another existential threat, though one the world decides you should handle by yourself. The kingdoms aid you, and the spirits of the original Erdwin party come to help you train, but there is no question about responsibility. You are the Hero, it's your job. Everyone else is just a bystander. 
 
+
+## Logos - examining the system from outside
+
+Difficult to discuss separately from the experiential aspects as many key design decisions were made to illicit emotional responses.
+
+A 3-act epic that disguises itself as a simple "lap around the world" collecting mulligans to defeat a Tolkien-esque pure evil. 
+
+## Pathos - examining the systems from inside
+
+
+
+## Ethos - concept, politics, and the creator's vision
+
+Conservatism, in both design and politics 
+* Obsession with history, familiarity, callbacks, etc
+* Romanticizing pastoralism, abstinence, and the virtues of war and physical strength
+* Restrictive ideas of women and what they can be in the world, coloring normal self-determination as "defiance"
+* Kingdoms based on real-life places, lovingly(?) flanderized
+* Leaving key character points to implication to avoid salient content, ie. Sylvando
+* Managed to find a plot point to make a young girl "actually much older"
+* Traditional Toriyama travel-the-world-collect-the-mulligans quest
+* Tolkien-esque morality with explicit good and evil
+* Valorizes royalty and ancestry to an insane degree, to the point that every cast member is either directly in line for a throne or sworn to protect one
+
+Transformation of history
+* Plot entirely revolves around descendents or spiritual reincarnations of the heroes of old, inheriting power to fulfill a prophecy that has echoed throughout time. Introduces a rhyming timeline not dissimilar to that of Link and Ganon.
+* Culminating three decades of tradition in one modern hurrah, Act I serving as a last hurrah for the simple turn-based RPG freidnship quest, before turning it on its head and examining its naivete
+* Places a strong emphasis on heritage of greatness, and in turn tees up the rest of the series as a surprise prequel, indicating a kind of humble genesis, always deferential to the greatness of old
+* Consistently panders to fans with references to the Erdrick saga, Trodain, and long-running gags
+* 3DS- and Definitive Edition-exclusive Altar of Time directly presents new scenarios involving the quests of old for the player to involve themselves with
+* Possibly Horii's metaphorical reflection on his own career, the things he wishes he could rewrite, the times he could return to with the wisdom of today
+* Bittersweet escapism ultimately triumphs over a material growth in a bold yet unsatisfying third act. Part of its impact/greatness feels accidental, by exposing the player to feelings of discomfort with both failure and success, and introducing an uncanniness to even your closest allies.
+
+It's interesting to consider the fact that the greatest Hero of legend across 30 years of games in the series was something of a failure. He found his own way to redemption, but the humility, or rather the human error, does not persist into legend; the chance to erase the failure was taken instead. Some might say this is the ultimate reward for taking the hardest path to its end, but it does say something about the merit of that path.
+
+Does it not paint the idea of Erdrick's legacy in a muddier light that he was given a divine chance to rewrite his narrative and become a hero immortalized by a perfect life? That without it, he "merely" becomes another Erdwin, a storied Hero who ultimately caused this cycle of grief?
+
+Mordegon was formed out of Calasmos's power by way of Morcant, who slays Erdwin before ending his prophecy.
+
+This sanitized history gives me a strange feeling, similar to how the world of Erdrea feels so devoid of romance, sex, or even violence. The inhabitants - and the player - are shielded from indecencies beyond innuendo, and threats are largely theoretical, quashed before real danger. Any real tragedy happens off-screen. Real aspects of character, such as Sylvando's struggles against his father's hard-headed, traditional ideas of masculinity, are written as metaphor - not out of wit, but an unseriousness, arguably fear. Classical vices are played for laughs and rarely ever have material consequences. Poondoggery for "bunny girls" is rampant across men in every corner of the globe, giving the same detached, arguably chaste, parasocial attraction. The darkest segment of the game, Jade's imprisonment in a *torture dimension* that heavily leverages imagery of sexual enslavement, hurriedly gives mountains of text to the player that her captor is a hopeless romantic and prude to dissuade all notions of horror. And if things get dangerous, or a real threat to safety emerges, or a taboo line is about to be crossed, the Hero is there to prevent it from occurring. Every soul is shielded from loss or strife wherever possible.
+
+There's also the complication that Erdrea is a land of almost perfect peace.
+
+Something about all of this bothers me more than it should. There's only so much shallowness I can personally digest until I start to wonder about the motivation behind the omissions of anything resembling real life. I suppose the philosophical conclusion from such a world necessarily require a moral stance in favor of eliminating and memory of strife, but would it not be more interesting to allow that memory to inform a new world, one reborn through conscious solidarity and communal? A world where the most cherished historical figure overcame tremendous odds to save a dying world, instead of unceramoniously squashing the existential threat before people knew more than its name? In one timeline, he is an inspirational and imitable savior informing a new paradigm of heroism; in the other, he is a flyswatter, deployed by divine forces to prevent a world from growing.
+
+
+
+
+## Final Thoughts
+|  |  |  |
+| --- | --- | --- |
+| Logos | +2 |  |
+| Pathos | +1 |  |
+| Ethos | +/- 0 |  |
+| Summary | Slightly Positive | |
