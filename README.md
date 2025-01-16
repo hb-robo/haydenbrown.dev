@@ -10,11 +10,13 @@ Built with Astro.js.
 3. New content is as simple as the addition of a Markdown file with some metadata
 
 ## TODO:
+
 - Create and link proxy email address for :mailto requests
+- Add content tags for "in progress" articles
 - Add dynamically calculated reading time as content metadata
 - Add tags and content types to BlogPostPreview cards
 - Implement blog index filter by tag/type
-- Fully furnish CV details
+- Build out Projects page
 - Implement dark mode
 - Import content from all across my backlog
 - Build out SEO mechanics
