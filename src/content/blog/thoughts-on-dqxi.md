@@ -89,6 +89,7 @@ There's also the complication that Erdrea is a land of almost perfect peace.
 
 Something about all of this bothers me more than it should. There's only so much shallowness I can personally digest until I start to wonder about the motivation behind the omissions of anything resembling real life. I suppose the philosophical conclusion from such a world necessarily require a moral stance in favor of eliminating and memory of strife, but would it not be more interesting to allow that memory to inform a new world, one reborn through conscious solidarity and communal? A world where the most cherished historical figure overcame tremendous odds to save a dying world, instead of unceramoniously squashing the existential threat before people knew more than its name? In one timeline, he is an inspirational and imitable savior informing a new paradigm of heroism; in the other, he is a flyswatter, deployed by divine forces to prevent a world from growing.
 
+And what about the perfectly servile Aryan girl-next-door you wed?? In a small town where the biggest and most expensive building is a church?
 
 
 
