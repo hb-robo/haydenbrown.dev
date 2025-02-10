@@ -48,7 +48,7 @@ main {
 	max-width: calc(100% - 2em);
 	margin: auto;
 	padding: 3em 1em;
-    font-size: 1.25rem; /* Set base font size for main content */ /* Adjust as needed */
+	font-size: 1rem;
 	display: flex;
     flex-wrap: wrap; /* Wrap items on smaller screens */
 }
@@ -62,7 +62,7 @@ h6 {
 	color: rgb(var(--black));
 	line-height: 1.2;
 }
-h1 {
+/* h1 {
 	font-size: 3.052em;
 }
 h2 {
@@ -76,7 +76,7 @@ h4 {
 }
 h5 {
 	font-size: 1.25em;
-}
+} */
 strong,
 b {
 	font-weight: 700;
