@@ -16,13 +16,75 @@ On balance, I'm a pretty critical person. Of myself, of others, of art, of gover
 
 It was a trait I played off as good-faith ribbing, as it did precipitate positive habits that I still carry with me - things like writing and plumbing my thoughts, engaging in healthy dialogue about problems I notice, and asking the right questions to strengthen my learning. It even became a persona in college, where I hosted a music review talk show on the student radio station. Despite my mixed feelings about it, it's core to my character.
 
-Being this kind of person for so long has split my brain into two concurrent processes, one that's experiential and allows things to pass through honestly, and another that sits in a reactionary state ready to poke holes. It's not always a pleasant experience or a worthwhile use of my mental energy.
+Being this kind of person for so long has split my brain into two concurrent processes, one that's experiential and allows things to pass through honestly, and another that sits in a reactionary state, ready to poke holes. It's not always a pleasant experience or a worthwhile use of my mental energy.
 
-The working world taught me
-
-2024 taught me this is getting in my way more than I'd imagined, and possibly impeding my ability to self-actualize.On top of
+As I've come to realize my own requirements and the things I really want, I've faced an ever-increasing mountain of imperfect tools, chains of command, platforms, and gadgets. It's not anyone's fault but mine that I view them in this light. I can't expect everything in the world to appeal to me, but it does keep me dreaming. I figure I'll work through some of these latent ideations and see if my complaints are coherent, examine the playing field of options, and conject what I can do about it.
 
 ## Daydream 1: the PKMS unicorn
+
+#### The problem
+
+Over the past two years, I fell into a modern procrastination trap of getting really into "productivity software," from task managers to social media limiters to personal knowledge management systems (PKMSes). I found it appealing to take learning seriously enough to have dedicated tools for it, and as a data engineer with experience designing graph database schemata, I particularly liked the now-common page backlinking. It gives the impression that you're growing a repository of information where each note serves a purpose, rather than a stack of unrelated papers.
+
+After trying a lot of these tools, I'm left with mixed opinions, and I don't think a perfect solution exists.
+
+#### The requirements.
+
+##### 1) True access across all devices without data exposure
+
+I want a tool vailable even on highly-restricted enterprise machines, meaning no need to install uncommon 3rd-party apps that need file system access. Ideally, the tool is accessible via some web interface, reading from and writing to a remote server, to avoid any interaction with local storage at all.
+
+If my notes must be stored locally per-machine (for instance with tools that rely on P2P sync), they must be encrypted at rest. The common pushback you'll get from PKMS devs is "if encryption is so important, encrypt your entire disk", but this is not always possible when your hardware is managed on your behalf in enterprise environments.
+
+True universal access means no lock-in with any specific software ecosystem, either. I don't know what tools I'm going to be using in the future, and the last thing I want is to run the risk of some calamitous .
+
+Ruled out:
+
+- Obsidian
+- Joplin
+- Apple Notes
+- Logseq
+
+##### 2) Built around tags, not folders
+
+- Must embrace the "throw it all together and index it" approach similar to how email solved the inboxes problem
+- First class tag system, treating them as fundamental or important as folders, with search and feature parity
+- Nice to have: "supertag" system that allows for hierarchical tags
+
+##### 3) Minimal interaction with cloud services
+
+- Nothing against the cloud, it's a beautiful thing, but these kinds of thoughts are private and should be held locally
+- Best case scenario is remote access to a private, self-hosted server with notes stored locally
+
+Ruled out: Notion, Monday.com
+
+##### 4) File-based Markdown note structure
+
+- Ensures portability of my notes to other systems, if need be
+- The notes should be readable as standalone files, not just in the context of the system
+- Many newer tools store data in relational DB files, usually through SQLite3, obfuscating the notes.
+
+Ruled out:
+
+#### Where I landed
+
+After all of my previous requirements were applied, I was left with the following options:
+
+- Silverbullet.,d
+- Siyuan
+- Anytype.io
+- A paper journal
+
+A paper journal, and a self-hosted Silverbullet.md instance.
+
+For my purposes, I am a proponent of the folder-less, file-based tools that index notes on a series of tags. For me, [[email already solved this problem of folders vs. tags for content]] - I would rather pull up a list of relevant files with a quick text search for a tag than browse a file system looking for something relevant. I concede that the folder approach has a nice quality of "proximity" between related concepts, but it's heuristic, and can be replicated in a dynamic way using linked pages, creating a much more concrete relationship between concepts.
+
+(image: it's also superior for navigation using graphs)
+
+4. A lot of these PKMS tools are commonly blocked in enterprise software environments, especially the cloud tools like Notion.
+5. The ones that aren't flagged by enterprise OSes rely on P2P syncing, meaning they will store your (usually Markdown) notes in plain unencrypted text, making them unsuitable for use on a work machine if the notes contain anything sensitive that could be read by an administrative tool.
+
+I tried a number of tools that
 
 ## Daydream 2: the Remarkable, but better
 
@@ -41,8 +103,6 @@ I have to hand it to Nintendo for being possibly the only company that still res
 ## Daydream 3: the legal emulation device
 
 ## Daydream 4: ANC headphones that don't explode
-
-## Daydream 5: A no-compromises grocery in my neighborhood
 
 ## Daydream 6:
 
