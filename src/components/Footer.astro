@@ -1,39 +1,24 @@
 ---
 const today = new Date();
-import * as Icon from '@astropub/icons';
 ---
 
 <footer>
-  &copy; {today.getFullYear()} Hayden T. Brown. All rights reserved.
-  <div class="social-links">
-    <a href="https://github.com/hb-robo" target="_blank">
-      <span class="sr-only">Go to Hayden's GitHub repo</span>
-      <svg
-        viewBox="0 0 16 16"
-        aria-hidden="true"
-        width="32"
-        height="32"
-        astro-icon="social/github"><Icon.GitHubLogo /></svg
+  <small>
+    <div class="social-links">
+      <a href="" target="_blank"> RSS </a>
+      ·
+      <a href="https://github.com/hb-robo" target="_blank"> GitHub </a>
+      ·
+      <a href="https://buymeacoffee.com/hb.robo" target="_blank"
+        >Buy me a coffee</a
       >
-    </a>
-    {/* TODO: Create proxy email for mailto: links */}
-    <a href="mailto:email_proxy@example.com" target="_blank">
-      <span class="sr-only">Reach out to Hayden via Email</span>
-      <svg
-        viewBox="0 0 16 16"
-        aria-hidden="true"
-        width="32"
-        height="32"
-        astro-icon="social/email"
-      >
-        <Icon.EnvelopeClosed />
-      </svg>
-    </a>
-  </div>
+    </div>
+    &copy; {today.getFullYear()} Hayden T. Brown. All rights reserved.
+  </small>
 </footer>
 <style>
   footer {
-    padding: 2em 1em 6em 1em;
+    padding: 1em 1em 6em 1em;
     background: linear-gradient(var(--gray-gradient)) no-repeat;
     color: rgb(var(--gray));
     text-align: center;
@@ -41,12 +26,11 @@ import * as Icon from '@astropub/icons';
   .social-links {
     display: flex;
     justify-content: center;
-    gap: 1em;
-    margin-top: 1em;
+    gap: 0.25em;
   }
   .social-links a {
-    text-decoration: none;
-    color: rgb(var(--gray));
+    text-decoration: underline;
+    color: rgb(var(--black));
   }
   .social-links a:hover {
     color: rgb(var(--gray-dark));
