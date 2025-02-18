@@ -1,23 +1,81 @@
 ---
-import Layout from '../layouts/BlogPost.astro';
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 ---
 
-<Layout
-  title="About Me"
-  description="Lorem ipsum dolor sit amet"
-  pubDate={new Date('August 08 2021')}
-  heroImage="/blog-placeholder-about.jpg"
->
-  <p>
-    I wear many hats as a part of the Data & Analytics team at the largest labor
-    union in New York. As a Senior Data Analyst, I build data processes and
-    pipelines, architect supplementary DBs such as Neo4j and MongoDB, and build
-    out our budding cloud infrastructure. For a complete overview of what I can
-    bring to your team, <a href="/cv">check out my CV</a>.
-  </p>
-  <p>
-    Feel free to reach out to me directly by email at <u
-      >haydenbrown at comcast dot net</u
-    >.
-  </p>
-</Layout>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <style>
+      main {
+        width: 720px;
+        display: block;
+      }
+      hr {
+        width: 100%;
+      }
+      @media (max-width: 720px) {
+        .blog-list {
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+        }
+        h4 {
+          width: 100%;
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <h1>A bit about me</h1>
+      <h3>the human</h3>
+      <h3>the writer</h3>
+      <h3>the programmer</h3>
+      <p>
+        I stumbled upon my interest in programming essentially by accident. I
+        enrolled at Binghamton University with the intention of studying
+        industrial engineering, but was later convinced by my classmates to
+        pivot to mechanical engineering for better career opportunities. I
+        struggled with the change, but found a real foothold in the MATLAB
+        programming courses in the program. After discussing this with Eileen
+        Head, the Undergrad Director of Computer Science, I was graciously
+        offered a full slot in a very competitive CompSci program.
+      </p>
+      <p>
+        I used that opportunity to explore many corners of the computing world,
+        eventually finding my way to data science and statistical analysis by
+        way of my growing fascination with NBA basketball, specifically the
+        dramatic leaps in style of play that were taking place in the mid-2010s.
+        The plus-minus impact statistic revolution was a quantum leap forward
+        for mathematical understanding of the sport, so imagine my surprise when
+        I discover that PIPM, the dominant aggregate model at the time, was
+        developed by a student only two years my senior. That sort of thing
+        sticks with you.
+      </p>
+      <p>
+        Today I wear many hats as a part of the Data & Analytics team at the
+        largest labor union in New York. I primairly work on building robust
+        data pipelines, administrating supplementary DBs such as Neo4j and
+        MongoDB, and assisting with our budding cloud infrastructure.
+      </p>
+      <h3>reaching out</h3>
+      <p>
+        If you think I could be a benefit to your team, <a href="/cv"
+          >check out my CV</a
+        >!
+      </p>
+      <p>
+        If you want to reach out to me about an offer, talk shop about something
+        I wrote, or just introduce yourself, feel free to reach out to me
+        directly by email at <u>haydenbrown at comcast dot net</u>! I'm always
+        open to conversation and new opportunities.
+      </p>
+    </main>
+    <Footer />
+  </body>
+</html>
