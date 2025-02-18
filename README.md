@@ -11,7 +11,6 @@ Built with Astro.js.
 
 ## TODO:
 
-- Create and link proxy email address for :mailto requests
 - Add content tags for "in progress" articles
 - Add dynamically calculated reading time as content metadata
 - Add tags and content types to BlogPostPreview cards
