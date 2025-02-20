@@ -1,0 +1,20 @@
+---
+import { generateFeed } from '@astro/astro-feed';
+
+const posts = await Astro.fetchContent('/blog/**/*.md');  // Update to your actual path to posts
+const feed = await generateFeed({
+  title: 'Your Blog Title',  // Replace with your blog title
+  description: 'Your blog description goes here.',  // Add your blog description
+  site: 'https://your-blog-url.com',  // Replace with your blog URL
+  posts: posts.map((post) => ({
+    title: post.title,
+    description: post.excerpt,  // You may have a more detailed excerpt for each post
+    link: post.url,
+    date: post.date,
+  })),
+});
+---
+
+<head>
+  <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+</head>
