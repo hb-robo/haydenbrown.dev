@@ -1,16 +1,16 @@
 ---
 import { generateFeed } from '@astro/astro-feed';
 
-const posts = await Astro.fetchContent('/blog/**/*.md');  // Update to your actual path to posts
+const posts = await Astro.fetchContent('../../content/blog/*.md');
 const feed = await generateFeed({
-  title: 'Your Blog Title',  // Replace with your blog title
-  description: 'Your blog description goes here.',  // Add your blog description
-  site: 'https://your-blog-url.com',  // Replace with your blog URL
+  title: 'Hayden T. Brown',
+  description: 'Chronicling experiences with art, tech, and the world.',
+  site: 'https://haydenbrown.dev',
   posts: posts.map((post) => ({
     title: post.title,
-    description: post.excerpt,  // You may have a more detailed excerpt for each post
-    link: post.url,
-    date: post.date,
+    description: post.description,
+    link: Astro.url(post),
+    date: post.pubDate,
   })),
 });
 ---
