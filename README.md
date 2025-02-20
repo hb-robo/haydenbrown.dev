@@ -1,4 +1,4 @@
-# robolab.dev
+# haydenbrown.dev
 
 A digital space to collect my writing, showcase my projects, and chronicle my professional journey.
 Built with Astro.js.
