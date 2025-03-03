@@ -1,0 +1,91 @@
+---
+import styles from './BlogPostPreview.module.css'; // Import the CSS module
+import FormattedDate from './FormattedDate.astro';
+
+interface Props {
+  post: {
+    id: string;
+    data: {
+      title: string;
+      description: string;
+      pubDate: Date;
+      heroImage?: string;
+    };
+  };
+}
+
+const { post } = Astro.props as Props;
+---
+
+<style scoped>
+  .blog-post-preview {
+    width: calc(100% - 2rem);
+    display: flex; /* Use flexbox for layout */
+    align-items: flex-start; /* Align items to the top */
+    gap: 1rem; /* Add some spacing between image and content */
+    margin-bottom: 1rem; /* Space between list items */
+    padding-left: 0;
+  }
+  .blog-post-preview * {
+    text-decoration: none;
+    transition: 0.2s ease;
+  }
+  .blog-post-preview img {
+    margin-bottom: 0.5rem;
+    border-radius: 12px;
+    object-fit: cover; /* Prevent image distortion */
+    display: none;
+  }
+  .blog-post-preview a {
+    display: block;
+  }
+  .blog-post-preview a:hover h4,
+  .blog-post-preview a:hover .date {
+    color: rgb(var(--accent));
+  }
+  .blog-post-preview a:hover img {
+    box-shadow: var(--box-shadow);
+  }
+  @media (max-width: 720px) {
+    .blog-post-preview {
+      width: 100%;
+    }
+  }
+
+  .title {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: rgb(var(--black));
+    line-height: 1;
+  }
+  .description {
+    margin-bottom: 0.5rem;
+  }
+  .date {
+    margin: 0;
+    color: rgb(var(--gray));
+    font-size: 0.875rem;
+  }
+  .preview-content {
+    flex: 1; /* Allow content to take up remaining space */
+  }
+</style>
+<li class="blog-post-preview">
+  <a href={`/blog/${post.id}/`}>
+    <img
+      width={240}
+      height={360}
+      src={post.data.heroImage
+        ? post.data.heroImage
+        : '/blog-placeholder-2.jpg'}
+      alt=""
+    />
+    <div class="preview-content">
+      <h4 class="title">{post.data.title}</h4>
+      <p class="title">{post.data.description}</p>
+      <p class="date">
+        <FormattedDate date={post.data.pubDate} />
+      </p>
+    </div>
+  </a>
+</li>
