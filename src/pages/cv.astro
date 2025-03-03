@@ -1,0 +1,345 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import * as Icon from '@astropub/icons';
+---
+
+<head>
+  <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+</head>
+<body>
+  <Header />
+  <main>
+    <style>
+      .accordion-section {
+        margin-bottom: 1rem;
+        width: 100%;
+      }
+      .accordion {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 1.25rem;
+        transition: 0.4s;
+      }
+      .location {
+        font-style: italic;
+        color: #9c9c9c;
+        font-weight: lighter;
+      }
+
+      .active,
+      .accordion:hover {
+        background-color: #ccc;
+      }
+
+      .panel {
+        display: none;
+        background-color: white;
+        overflow: hidden;
+        width: 100%;
+        padding: 18px;
+        border: 1px solid #ccc;
+      }
+      ul.schools,
+      ul.jobs,
+      ul.skills {
+        list-style: none;
+        padding-left: 0;
+      }
+      li.school,
+      li.job,
+      li.skill-section {
+        margin-bottom: 1em;
+      }
+      li.school h5,
+      li.job h5,
+      li.skill-section h5 {
+        margin-bottom: 0.1em;
+      }
+      li.school p,
+      li.job p,
+      li.skill-section p {
+        margin-top: 0.1em;
+        margin-bottom: 0.1em;
+        line-height: 1.2;
+      }
+    </style>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const accordions = document.querySelectorAll('.accordion');
+        accordions.forEach((accordion) => {
+          accordion.addEventListener('click', function () {
+            this.classList.toggle('active');
+            const panel = this.nextElementSibling;
+            if (panel.style.display === 'block') {
+              panel.style.display = 'none';
+            } else {
+              panel.style.display = 'block';
+            }
+          });
+        });
+      });
+    </script>
+    <div style="width:100%; text-align:left;">
+      <div>
+        <h3>
+          Hayden T. Brown <span
+            style="font-size: 1.5rem; line-height:inherit; margin: 0.5rem auto 0 auto;"
+            >(he/him)</span
+          >
+        </h3>
+      </div>
+      <hr />
+      <p>
+        Data generalist with expertise in data analysis, engineering, and
+        architecture for both relational and non-relational databases (Redis,
+        MongoDB, InfluxDB, Neo4j). Proven record of leveraging data to drive
+        impactful decisions in the non-profit and public sectors.
+      </p>
+      <hr />
+    </div>
+    <div class="accordion-section">
+      <button class="accordion">Experience</button>
+      <div class="panel">
+        <ul class="jobs">
+          <li class="job">
+            <h5>Senior Data Analyst</h5>
+            <p style="font-weight: bold;">
+              Civil Service Employees Association of NY
+            </p>
+            <p>Sep 2024 - Present | <span class="location">Albany, NY</span></p>
+            <hr />
+            <ul>
+              <li>
+                Developed a robust Python ETL system that processed and
+                standardize over 1400 unique file formats, culminating in the
+                discovery of 20,000+ previously unreported union non-members.
+              </li>
+              <li>
+                Provided technical leadership and guidance to cross-functional
+                group, including non-technical stakeholders, to translate
+                insights from the ETL system to support targeted membership
+                recruitment campsigns.
+              </li>
+              <li>
+                Contributed to the migration of critical database architecture
+                to AWS, optimizing for cost-effectiveness, performance,
+                scalability, and security.
+              </li>
+            </ul>
+          </li>
+          <li class="job">
+            <h5>Data Analyst</h5>
+            <p>Civil Service Employees Association of NY</p>
+            <p>
+              Apr 2022 - Sep 2024 | <span class="location">Albany, NY</span>
+            </p>
+            <hr />
+            <ul>
+              <li>
+                Architected and implemented a robust Neo4j graph database schema
+                to visualize entity relationships in our production database,
+                improving data exploration and understanding.
+              </li>
+              <li>
+                Improved data organization by defining clear separation of
+                concerns and migrating relevant Postgres datasets to Redis,
+                MongoDB, and InfluxDB.
+              </li>
+              <li>
+                Designed and developed over 350 data visualizations (charts and
+                dashboards) that informed key business decisions and steered
+                organizational direction.
+              </li>
+              <li>
+                Enhanced data security by refactoring 300+ database calls in
+                internal web apps, mitigating SQL injection vulnerabilities.
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="accordion-section">
+      <button class="accordion">Education</button>
+      <div class="panel">
+        <ul class="schools">
+          <li class="school">
+            <h5>B.S. Computer Science, B.A. Mathematical Sciences</h5>
+            <p style="font-weight: bold;">Binghamton University</p>
+            <p>Graduated 2020 | <span class="location">Binghamton, NY</span></p>
+            <hr />
+            <b>Research Experience</b>
+            <ul>
+              <li>
+                VirLab w/ Dr. Kenneth Chiu, Apr 2018 - Jun 2019
+                <ul>
+                  <li>
+                    Conducted research on the application of machine learning
+                    algorithms to identify DNA strands of infectious diseases in
+                    the <i>Flaviviridae</i> genus, including the novel Coronavirus.
+                    (Yes, seriously! In 2018!)
+                  </li>
+                  <li>
+                    Sponsored by the Binghamton University CompSci Department,
+                    the Arizona State University Virology Department, and The
+                    Cary Institute of NY.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Center of Cognitive Applications w/ Dr. Kenneth Kurtz, Nov 2017
+                - Jun 2018
+                <ul>
+                  <li>
+                    Conducted research on the application of experimental
+                    machine learning algorithms to replicate human thought
+                    processes, decision making, and memory storage and
+                    retrieval, based on bleeding-edge neuroscientific models.
+                  </li>
+                  <li>Sponsored by the Binghamton Psychology Department.</li>
+                </ul>
+              </li>
+            </ul>
+            <b>Teaching Assistantships</b>
+            <ul>
+              <li>
+                CS 301: Ethical, Social, and Global Issues in Computing, 2018
+              </li>
+              <li>CS 110: Programming Concepts & Applications, 2018</li>
+            </ul>
+            <b>Academic Honors & Recognition</b>
+            <ul>
+              <li>Dean's List (x2) - 2019, 2020</li>
+              <li>Honorary Judge, Data Science Hackathon 2019</li>
+              <li>
+                1st Overall Prize, HackBU Hackathon 2018
+                <h6>
+                  read about it:
+                  <a
+                    href="https://www.bupipedream.com/news/campus-news/over-250-students-attend-hackbus-fifth-annual-hackathon/91603/"
+                    >https://www.bupipedream.com/news/campus-news/over-250-students-attend-hackbus-fifth-annual-hackathon/91603/</a
+                  >
+                </h6>
+              </li>
+            </ul>
+            <b>Clubs & Organizations</b>
+            <ul>
+              <li>
+                WHRW 90.5 FM: Student Radio
+                <ul>
+                  <li>
+                    Served as Director of Public Affairs for the 2018-2019
+                    scholastic term, overseeing and developing a well-rounded
+                    broadcast schedule of student-run talk shows.
+                  </li>
+                  <li>
+                    Hosted SoundSpeak, an album review talk show with an open
+                    invitation to all students, every Wednesday from 2015-2019.
+                  </li>
+                  <li>
+                    Contributed as a regularly-scheduled radio DJ from
+                    2015-2019.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                HackBU: Student Hackathon Organization
+                <ul>
+                  <li>
+                    Served as a member of the organization from 2018-2019,
+                    contributing to the planning of the titular events.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="accordion-section">
+      <button class="accordion">Skills</button>
+      <div class="panel">
+        <ul class="skills">
+          <li class="skill-section">
+            <h5>Data Skill</h5>
+            <hr />
+            <ul>
+              <li>
+                <b>Analysis:</b> Data discovery, data vizualization and storytelling,
+                data cleaning and enrichment
+              </li>
+              <li>
+                <b>Engineering:</b> ETL Pipelines, data warehousing and lakehousing,
+                cloud computing in AWS (EC2, S3, EBS)
+              </li>
+              <li>
+                <b>Architecture:</b> Graph entity and relationship modeling, relational
+                schema design, MongoDB <code>$jsonSchema</code> design
+              </li>
+            </ul>
+          </li>
+          <li class="skill-section">
+            <h5>Database Technologies</h5>
+            <hr />
+            <ul>
+              <li>
+                <b>Relational:</b> PostgreSQL, Azure SQLServer, SQLite3, DuckDB
+              </li>
+              <li><b>Non-Relational:</b> Redis, MongoDB, Neo4j, InfluxDB</li>
+            </ul>
+          </li>
+          <li class="skill-section">
+            <h5>Tools and Technologies</h5>
+            <hr />
+            <ul>
+              <li>
+                <b>Scripting & Data Work:</b> Python, Pandas, NumPy, Bash
+              </li>
+              <li>
+                <b>Query Languages:</b> SQL, Cypher, MQL, Redis Commands, InfluxQL
+              </li>
+              <li>
+                <b>Web Development:</b> JavaScript, Node, Express, Astro
+              </li>
+              <li>
+                <b>DataViz Tools:</b> SplashBI, PyPlot, Neo4j Bloom, Grafana, Excel,
+                Influx Dashboards
+              </li>
+            </ul>
+          </li>
+          <li class="skill-section">
+            <h5>Other Skills</h5>
+            <hr />
+            <ul>
+              <li>
+                <b>Communication:</b> Data presentation and communication, technical
+                writing
+              </li>
+              <li>
+                <b>Collaboration Tools:</b> Jira, MediaWiki, Microsoft Teams, Bitbucket,
+                GitHub
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="accordion-section">
+      <button class="accordion">Projects</button>
+      <div class="panel">
+        <p>Projects page coming soon...</p>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</body>
