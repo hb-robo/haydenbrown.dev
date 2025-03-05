@@ -3,7 +3,6 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
-import * as Icon from '@astropub/icons';
 
 import { getCollection } from 'astro:content';
 import BlogPostPreview from '../components/BlogPostPreview.astro';
@@ -35,9 +34,8 @@ const recentPosts = posts.slice(0, 3); // Get the three most recent posts
       }
       #cursor {
         display: inline-block;
-        background-color: #fff;
-        width: 10px;
-        animation: blink 0.75s step-end infinite;
+        /* width: 1rem; */
+        animation: blink 1.5s step-end infinite;
       }
       @keyframes blink {
         50% {
@@ -60,10 +58,10 @@ const recentPosts = posts.slice(0, 3); // Get the three most recent posts
   <body>
     <Header />
     <main>
-      <h1>~$ hello, world<span id="cursor">|</span></h1>
+      <h1>~$ hello, world<span id="cursor">▓</span></h1>
       <p>
-        Welcome! I'm Hayden. This is a digital space for my projects, thoughts, and documenting my
-        professional journey.
+        Welcome! I'm Hayden. This is a digital space for my projects, thoughts,
+        and documenting my professional journey.
       </p>
       <p>
         If you enjoy reading about experiences with media, art, and tech, or
