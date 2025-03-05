@@ -11,13 +11,11 @@ Built with Astro.js.
 
 ## TODO:
 
-- Add content tags for "in progress" articles
+- Add content tags for "in progress" articles (and omit them from feeds)
 - Add dynamically calculated reading time as content metadata
-- Add tags and content types to BlogPostPreview cards
+- Add tags to BlogPostPreview cards
 - Implement blog index filter by tag/type
+- Import content from all across my backlog
 - Build out Projects page
 - Implement dark mode
-- Import content from all across my backlog
-- Build out SEO mechanics
-- Host on GitHub Pages
-- Link hosted repo to custom domain
+- Improve SEO
