@@ -27,6 +27,7 @@ export async function GET(context) {
 				pubDate: post.data.pubDate,
 				lastModified: post.data.updatedDate || post.data.pubDate,
 				link: `/blog/${post.id}/`,
+				guid: `${context.site}/blog/${post.id}/`,
 				customData: `
 					<language>en-us</language> 
 					${categories}
