@@ -6,20 +6,23 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "check": "astro check"
   },
   "dependencies": {
+    "@astrojs/check": "^0.9.4",
     "@astrojs/mdx": "^4.0.3",
     "@astrojs/react": "^4.1.2",
-    "@astrojs/rss": "^4.0.10",
+    "@astrojs/rss": "^4.0.11",
     "@astrojs/sitemap": "^3.2.1",
     "@astropub/icons": "^0.2.0",
-    "astro": "^5.1.1",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "typescript": "^5.8.2"
   },
   "devDependencies": {
     "@types/node": "^22.10.2",
+    "astro": "^5.4.2",
     "prettier": "^3.4.2",
     "ts-node": "^10.9.2"
   }
