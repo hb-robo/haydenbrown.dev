@@ -39,21 +39,24 @@ What followed was nothing less than a full-blown emotional crisis as I battled f
 
 ## 
 
-## Setting healthy writing boundaries
+## Naturally healthy writing boundaries
 
-Pragmatically, this series also thaws a couple of my barriers to writing consistently. I've been critiquing art for my entire adult life, starting on RateYourMusic.com in 2014, hosting the radio talk show "SoundSpeak" in college to review albums alongside a panel, and writing about games on Glitchwave and Backloggd the last 5 years. All in all, I've written or talked about a thousand different pieces of art over the last decade, not including casual conversations.
+The boundaries of engagement naturally set by this essay series also thaw a couple of my barriers to writing consistently.
 
-What people might not know is that this isn't through a strong will to hone my criticism skills, or an ego driven to share opinions, but of a compulsive inability to stop. The "critical eye" - a learning one, especially - becomes a laser beam that makes casual enjoyment of things very difficult. For stages of my journey, I struggled with ironic or comedic appreciation of things, especially in group settings. I lost the ability to listen to music passively while working or ignore conversations without eavesdropping due to an overeager ear taught to process details.
+I've been critiquing art for my entire adult life, starting on RateYourMusic.com in 2014 (still continuing today), hosting the radio panel talk show "SoundSpeak" in college to review albums, and writing about games on Glitchwave and Backloggd and private journals over the last 5 years. All in all, I've written or formally discussed around a thousand different pieces of art over the last decade, not including casual conversations. What might not be clear, however, is this volume isn't caused by a strong will to hone my writing skills, or an ego driven to share opinions, but a compulsive inability to stop.
 
-There is also a guilt that forms when you don't fully understand or digest some piece of art and move on with your life without an evaluatory process.
+The "critical eye" - a learning one, especially - becomes a laser beam that makes casual enjoyment of things very difficult. For stages of my journey, I struggled with ironic or comedic appreciation of things, especially in group settings. The ears I conditioned to be detail-oriented and overeager caused me to lose the ability to listen to music passively while working, or to ignore conversations without eavesdropping. Eventually, the pattern recognition from processing so much can destroy suspension of disbelief, or the ability to truly judge things in isolation, apart from the broader context of its creation.
 
-and have seen a lot of reactions to my work. The same few core ideas regularly resurface, whether I'm sharing my thoughts with others or vice a versa. 
+There is also a guilt that forms when you don't fully understand or digest some piece of art and move on with your life without an evaluatory process. It's the same guilt you feel skipping a day at the gym, or ignoring a text. You only see nails if you identify as a hammer, but to write about something is an effort. If you consume as much as the average American person per month, you're looking at 80 hours of music, 1 book, 15 hours of gaming, 90 hours of streamed film/TV, and maybe a movie at the theaters. Writers tend to be enthusiasts, and so have to juggle their time between the consumption and the processing. Unless you're paid for it, I'd say most people don't have the bandwidth to write something worth reading about *everything*. My pet theory is that this is the reason for the hyper-succinct, comedic review style popularized on Letterboxd.
 
-#### 1. Not everybody needs to join every conversation.
+Being overly methodical costs you freedom, time, and stress. My fellow critics-in-recovery may also find they must practice the permission to let experiences pass you by without serious mental exercise. Part of the elegance of The Shelf is that definitionally, everything that is talked about must be worth talking about. Love is proximate to familiarity.
 
-This is a personal pet peeve of mine, and while I see others echo it, I feel the message is misinterpreted. Often this is code for the polite idiom of "if you have nothing nice to say, say nothing at all," but this is an unserious idea when it comes to art. Evaluation can't just be based on the volume of positive reception alone, lest it resemble a consumer economy, designed to offend the fewest people in the least expensive manner possible. 
 
 #### 2. Almost everything is unremarkable
+
+This calls back to the bell curve concept. Assuming that a true random selection of art experiences will create a normal distribution of responses within a person (which is verifiably true for myself, at least), then roughly 68% of everything you experience is firmly *mid*, or within 1 standard deviation in either direction. I've personally found that even when mandating 100 words minimum for a microreview, there were still some things I couldn't bring myself to discuss.
+
+Mediocrity can be interesting to digest for the practice of parsing good and bad, weighing it and deciding what is pivotal to your experience of the work, but most of the middle ground isn't a rollercoaster of quality, it's a dull, murmuring hum that inspires nothing.For this reason, Made the Shelf naturally avoids the tedium of completeness.
 
 ####
 
