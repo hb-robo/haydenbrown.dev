@@ -71,7 +71,8 @@ const recentPosts = posts.slice(0, 3); // Get the three most recent posts
       <ul class="blog-list">
         {recentPosts.map((post) => <BlogPostPreview post={post} />)}
       </ul>
+      <hr />
+      <Footer />
     </main>
-    <Footer />
   </body>
 </html>
