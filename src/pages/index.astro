@@ -8,7 +8,7 @@ import { getCollection } from 'astro:content';
 import BlogPostPreview from '../components/BlogPostPreview.astro';
 
 const posts = (await getCollection('blog')).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+  (a, b) => (b.data.pubDate?.valueOf() ?? 0) - (a.data.pubDate?.valueOf() ?? 0)
 );
 const recentPosts = posts.slice(0, 3); // Get the three most recent posts
 ---
@@ -67,11 +67,13 @@ const recentPosts = posts.slice(0, 3); // Get the three most recent posts
         If you enjoy reading about experiences with media, art, and tech, or
         just want to see what I've been working on lately, check out my blog:
       </p>
-      <h4>Recent Posts</h4>
+      <hr />
+      <h2>recent posts</h2>
       <ul class="blog-list">
         {recentPosts.map((post) => <BlogPostPreview post={post} />)}
       </ul>
+      <hr />
+      <Footer />
     </main>
-    <Footer />
   </body>
 </html>
