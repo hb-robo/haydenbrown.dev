@@ -1,6 +1,6 @@
 ---
-title: 'datpiff necromancy'
-description: 'unpacking the chaotic DatPiff necromancy of "MUSIC" by Playboi Carti'
+title: "playboi carti and datpiff necromancy"
+description: 'unpacking the chaotic datpiff necromancy of "MUSIC" by Playboi Carti'
 pubDate: 'mar 20 2025'
 heroImage: '/blog-placeholder-2.jpg'
 tags:
@@ -9,15 +9,35 @@ tags:
   - 'rap'
 ---
 
-# a journey down 
+# what is music?
+
+playboi carti's new album "MUSIC" debuted to a number of criticisms.
+early reactions from fans have been positive, but the neutral observers have had mileage vary by how willing they are to understand the vision
 
 # enter: the vamp
 
-# historical justice
+# historical justice / forcing a fashion statement
 
 frequently takes stylistic cues from beloved, yet often-misunderstood or hated southern rap styles, things lambasted as undereducated (short bus shawty) or shallow
 
 the mere act of acknowledgement is validation. it was history regardless
+- the epicenter of this was Carti's hometown, atlanta georgia
+- I followed the scene with close intensity, but from a distance (and privately), and my lack of proximity caused some confusion
+    - admitted misunderstanding of the merits of proto-trap
+    - I remember an exchange with Tyler, the Creator in his tumblr days, he had a Formspring account and I asked him how it felt to already be technically superior than some of his influences (ferrari boys, not clipse/neptunes). he did not take it well
+    - it took adoption by major artists for me to fully understand the significance
+        - don't like remix was the watershed moment
+        - Magna Carta Holy Grail by jay z
+        - yeezus by kanye west, specifically the TNGHT interpolations of trap electronica
+    - later, my friends and I started to ironically, then unironically love the sound
+        - Flockaveli by Waka Flocka
+        - Monster and SGB: The Movie by Future
+        - Back From the Dead and Almighty So, especially with 
+    - weirder kids like me followed the rabbit hole to spaceghostpurrp, lil ugly mane, and the whole memphis revivalist movement happening in florida via raider klan
+
+- people who are precisely our age saw the eventual commodification of the snap, jerk, and trap sounds assimilate into mainstream pop rap, but the form drastically changed in 2015, making the early 10s a uniquely bright/boistrous era before the darkness that followed
+- there is an infamous quote about how the 00s was dominated by rappers that sold drugs, but the 2010s was dominated by rappers that abused drugs... a natural and inevitable cycle
+- that early 2010s period served as a kind of transitional period, where party rap skyrocketed in popularity and 
 
 Like Weezy - sampling Travis Porter-esque party rap song, pays homage in the video intro
 (insert picture of song title card)
@@ -28,11 +48,42 @@ it's amazing to see marquee 2020s producers completely commit to this bit
 - Cardo on CRANK
 
 structurally resembles a DatPiff era mixtape, 30 songs in length, complete with a very audible DJ, and songs completely performed by the lead artist's friends as a form of cross promotion, but carrying a fashionablility that is very modern, like the mixtape was being "worn" by a tastemaker, transforming it into an aesthetic statement.
+- to say carti is influential in the fashion world is an understatement
 
 feels more authentic and respectful than mere parading, fully dives into the sound and explores its corners, similar to how y2k was explored and expanded upon 
+- simultaneously, the distance from that sound forms it into a weapon of sorts, to be deployed and smacked into your face, 
+- it explore the viability of some of these sounds in a completely different era of music, rap music, and rap music listenership
+
+for a while, I was kind of worried that sampling in hip-hop was going to run out of usable material. surely rap can't sample itself without creating a feedback loop, no? sampling "wat's wrong" still necessitates an incidental sampling of stanley cowell by inheritance. besides getting progressively harder to work with, it also seems to open up debilitating levels of accumulated royalties that could prevent commercial release entirely. what i failed to consider was the whole world of self-constructed 
+
+the fact that we're fully into an era of reinterpolating trap choruses and 808 beats into the same ethereal mirrors as we do ronald isley continues to amaze me.
+
+(insert )
+
+i suppose this begs the question of the creative message behind, for example, sampling and interpolating a 2011 song by an artist that intentionally made music that resembled projects from 1992-1994 made by memphis residents who had almost no equipment to work with, no marketing budget, .
+
+each echo reverberates louder, but becomes more detached from the source. it can be argued that the current fashionability of these sounds from one of the ~5 most popular rappers in the world, a decimillionaire obsessed with image taking cues from decades of music made by people in poverty trying to make a better life gives a confused impression. on one hand, the gift of exposure is powerful, on the other, it's sort of vampiric. we have the luxury of sifting through the literal hundreds of thousands of freely available, non-commercial mixtapes for bits to use for our own gain, but those artists lived and died trying to make their sound work in their era. they competed for a spot, and almost everyone didn't get one. by comparison, retrospective curation doesn't carry any risk, but has more to gain. 
+
+i can't be too hard on carti, though. we are the same age, and although we experienced this musical world in very different contexts, the memories are there. if nothing else, perhaps carti is cultivating affection for the attitude and approach. truly, who can say carti has played ANYTHING safe in his long career? MUSIC opens by putting a dentist drill directly into your eardrums. he may have a safety net, but there is always the risk of losing what you built, and carti unabashedly pushes his own sound forward with every project.
+
+# a question of leadership
 
 the sheer intrigue of this sound makes more commercial tracks stick out and feel misplaced, even when they're perfectly serviceable or even good.
 
+# who deserves empathy?
 
-# who deserves restorative justice?
 
+
+# 
+
+the y2k revivalist movement didn't hit me all that hard because I was too young to really understand what it was really like in the moment. I only have memories of magazine ads, the radio, the backs of DVD cases, and other peripheral perspectives of that real heart of it. I was still a child, not yet "living" the era, just observing it.
+
+the datpiff era is another story, though. I had agency, the freedom to explore. social media was in its toddler years, creating unprecedented access to artists, and I took full advantage. out of the blog era, the artists became blogs unto themselves.
+
+to see an era I understood so intimately and spent so much of my time exploring and understanding finally be reupholstered in the same way as fruitger aero has touched a nerve. for one, I'm old. the world is unrecognizable compared to my recollections of Obama-era optimism. for two, I am starting to recognize the extent to which revivalism deconstructs.
+
+*MUSIC* isn't a complete recreation of the era, it's a curated assembly of contemporary traits. Snapback culture isn't back, nobody is hitting the spongebob in ultra slim jeans, and the cologned sheen over pop music is very much still a relic. Stoner purism culture naivety is still a memory. No, the album is a trip down memories of this era, interwoven with the drug-laden, chopped and screwed and reinterpreted in the comparative nightmare dimension that is 2025.
+
+ultimately, despite not complying strictly to the norms of the era, MUSIC displays an intimate understanding of what it was like to be there without pretending it can truly be recreated. 
+
+i guess even millionaires have spent the 2020s dreaming of the past.
