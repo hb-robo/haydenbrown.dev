@@ -76,9 +76,17 @@ the sheer intrigue of this sound makes more commercial tracks stick out and feel
 
 # 
 
-the y2k revivalist movement didn't hit me all that hard because I was too young to really understand what it was really like in the moment. I only have memories of magazine ads, the radio, the backs of DVD cases, and other peripheral perspectives of that real heart of it. I was still a child, not yet "living" the era, just observing it.
+the y2k revivalist movement didn't hit me all that hard because I was too young to really understand what it was really like in the moment. I only have memories of magazine ads, the radio, the backs of DVD cases, and other peripheral perspectives of that beating heart. I was still a child, not yet "living" the era, just observing it between more localized memories of my school and neighborhood.
 
-the datpiff era is another story, though. I had agency, the freedom to explore. social media was in its toddler years, creating unprecedented access to artists, and I took full advantage. out of the blog era, the artists became blogs unto themselves.
+the culture of the time doesn't affect a child that profoundly because they don't know anything else. living long enough to notice and embrace change is another story, though. in the prime of the datpiff era, I was 13 years old and tasting my first bit of real personal agency. we were all more online than our parents, and through that i learned so much about what the world was doing and sharing, giving me greater perspective on what was new and innovative.
+
+it might seem fairly alien to the modern consumer but the vast majority of music in rap released in my teen years was done so for completely free.
+
+mixtapes went diamond off of a download button.
+
+this approach required a degree of effort from the user. sure, you'd hear about stuff from friends or feeds or social media, but mostly from other artists on features. when people got signed to major deals many listeners already knew who they were. it was like finally getting access to college basketball after years of only seeing the nba. the determination and skill required to find a pocket and ride it into legitimate success was on display for all to see. artists competed day in, day out to make it, and we all watched in real time.
+
+social media was in its toddler years, and I would argue this is the last vestige of centralized musical culture before artists' personal feeds created unprecedented access to artists. out of the blog aggregator era, the artists became blogs unto themselves. you didn't need datpiff, you needed the tumblr or twitter or instagram page of your favorite musicians to let you know when stuff was download or buy.
 
 to see an era I understood so intimately and spent so much of my time exploring and understanding finally be reupholstered in the same way as fruitger aero has touched a nerve. for one, I'm old. the world is unrecognizable compared to my recollections of Obama-era optimism. for two, I am starting to recognize the extent to which revivalism deconstructs.
 
