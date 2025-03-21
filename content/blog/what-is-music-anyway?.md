@@ -9,12 +9,29 @@ tags:
   - 'rap'
 ---
 
-# what is music?
+# reliving the death of rock
 
-playboi carti's new album "MUSIC" debuted to a number of criticisms.
-early reactions from fans have been positive, but the neutral observers have had mileage vary by how willing they are to understand the vision
+i've long held a belief that the evolution of rap is mirroring the evolution of rock music, with a ~30 year delay. it's an imperfect comparison, but as the two major sonic revolutions of the modern music recording era, they are otherwise mutually peerless in genre saturation. the sheer volume of listenership and creatives working within these frameworks, along with key technological advancements and stylistic shifts have caused similar growths and philosophical 
+
+the most important throughline between rock and rap, however, was that sheer commerical dominance was so long that entire generations were born into the paradigm, and began to question it.
+
+i was born in 1996, two weeks after the death of tupac shakur. by the time i was 5, eminem was the biggest american musician. at 10, he still was despite retirement. at 15, kanye west was. at 20 and 25, it was drake. today in 2025 we're seeing kendrick lamar's hostile takeover of the music industry. although i did my due diligence and delved into the history of rap, local scenes and their sounds, cult classics, and more, i was born into the paradigm, and therefore somewhat rejected it.
+
+what every generation of a sound must cope with is that the next generation will forfeit their inheritance. it goes beyond the desire for something new, it's about ownership. the youth cannot merely carry torches, they must light one.
+
+older millennials did a good job of rebelling against the x-er dominance of rap music, and for the most part they did so by making music lighter in tone. drake and kid cudi forged ground with melodic delivery. lil b spawned (among other things) cloud rap, famous for a sensory wall-of-sound approach intended to soothe and immerse the listener. the west coast had both the snap and jerk movements, and even the comparatively headier conscious revivalist movement (black hippy, blu & exile, u-n-i, etc.) had a sunny aesthetic quality. atlanta took over the world with high-energy trap music, whether it manifested with the joy of travis porter, the intensity of waka flocka, or the vulnerability of future's pluto era.
+
+the late millennials had different plans. the abstraction of the genre continued, but darker and more indulgent. spaceghostpurrp and denzel curry forged a memphis rap revival that was drenched in lofi and murderous sounds. odd future emerged as a gang of shock jocks. travis scott's flood of voice modulation and melancholic, hazy production ushered in an era that romanticized drug use and the dissociative beauty of teetering on the edge of life and death. young thug (among others in atlanta, e.g. migos and rich homie quan) led a revolution in how emcees were evaluated by merging extreme technical ability and breath control with melodic precision and occasionally intentional unintelligibility. voices were an instrument, so both the timbre and tone weighed more heavily than the content of the speech itself.
+
+in the modern day, we have come to grips with a lost generation in rap. the older zoomer generation lost almost all of their guiding light, with the loss of the three most generationally resonant artists - xxxtentacion, juice wrld, and pop smoke - echoing the unexpected deaths of kurt cobain, jeff buckley, and bradley nowell. between these losses and the otherwise historically turbulent early 2020s, they're still trying to find a sound. this power vacuum was almost entirely absorbed by drake, ultimately leading to his public execution in 2024. but even before kendrick lamar's usurpation, drake posed the same problem to the kids that eminem and kanye did to me: it's not theirs. the music is not made from their perspective, it just caters to it. ultimately, this dissonance can't stand.
 
 # enter: the vamp
+
+enter playboi carti, our unlikely protagonist. he is the youngest of his generation and the same age as me. 
+
+taking the new age vocal delivery to its logical conclusion. his earlier work was so anti-lyrical that some songs were entirely performed as strings of adlibs or vocal sound effects.
+
+
 
 # historical justice / forcing a fashion statement
 
