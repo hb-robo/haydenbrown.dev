@@ -1,7 +1,7 @@
 ---
 title: "playboi carti and datpiff necromancy"
 description: 'unpacking the chaotic datpiff necromancy of "MUSIC" by Playboi Carti'
-pubDate: 'mar 20 2025'
+pubDate: 'mar 21 2025'
 heroImage: '/blog-placeholder-2.jpg'
 tags:
   - 'criticism'
@@ -109,6 +109,6 @@ to see an era I understood so intimately and spent so much of my time exploring 
 
 *MUSIC* isn't a complete recreation of the era, it's a curated assembly of contemporary traits. Snapback culture isn't back, nobody is hitting the spongebob in ultra slim jeans, and the cologned sheen over pop music is very much still a relic. Stoner purism culture naivety is still a memory. No, the album is a trip down memories of this era, interwoven with the drug-laden, chopped and screwed and reinterpreted in the comparative nightmare dimension that is 2025.
 
-ultimately, despite not complying strictly to the norms of the era, MUSIC displays an intimate understanding of what it was like to be there without pretending it can truly be recreated. 
+ultimately, despite not complying strictly to the norms of the era, MUSIC displays an intimate understanding of what it was like to be there without pretending it can truly be recreated.
 
-i guess even millionaires have spent the 2020s dreaming of the past.
+taking in as a whole, the most depressed moments on MUSIC tend to be the most bleeding-edge, and ultimately they dominate the sonic tendency. but the brightest and most carefree moments on the project sound the most nostalgic. i guess even millionaires have spent the 2020s dreaming of the past.
