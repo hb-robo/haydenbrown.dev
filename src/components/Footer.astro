@@ -1,55 +1,7 @@
----
-const today = new Date();
----
-
-<footer>
-  <div class="social-links">
-    <a
-      href="/rss.xml"
-      type="application/rss+xml"
-      rel="alternate"
-      target="_blank"
-    >
-      rss
-    </a>
-    ·
-    <a
-      href="https://substack.com/@haydentbrown?utm_source=user-menu"
-      target="_blank"
-    >
-      substack
-    </a>
-    ·
-    <a href="https://www.linkedin.com/in/hayden-t-brown/" target="_blank">
-      linkedin
-    </a>
-    ·
-    <a href="https://github.com/hb-robo" target="_blank"> github </a>
-    ·
-    <a href="https://buymeacoffee.com/hb.robo" target="_blank"
-      >buy me a coffee</a
-    >
+<footer class="border-t-2 border-stone-900 bg-amber-50 mt-24">
+  <div class="max-w-5xl mx-auto px-6 py-8">
+    <p class="text-stone-600 text-sm font-mono">
+      Albany, NY · Built with Astro · Last updated {new Date().toLocaleDateString('en-US', { month: 'short', year: 'numeric' })}
+    </p>
   </div>
-  &copy; {today.getFullYear()} hayden t. brown. all rights reserved.
 </footer>
-<style>
-  footer {
-    padding: 1em 1em 6em 1em;
-    color: rgb(var(--gray));
-    text-align: center;
-    width: 100%;
-  }
-  .social-links {
-    display: flex;
-    justify-content: center;
-    gap: 0.25em;
-  }
-  .social-links a {
-    font-size: inherit;
-    text-decoration: underline;
-    color: rgb(var(--black));
-  }
-  .social-links a:hover {
-    color: rgb(var(--gray-dark));
-  }
-</style>
