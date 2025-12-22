@@ -13,18 +13,24 @@ interface Project {
 }
 
 export default function ProjectFilter({ projects }: { projects: Project[] }) {
+
+  projects = projects.filter(p => p.data.status != 'planned' && p.data.status != 'shelved');
   const [activeFilter, setActiveFilter] = useState('all');
 
-  const filteredProjects = activeFilter === 'all' 
+  let filteredProjects = activeFilter === 'all' 
     ? projects 
     : projects.filter(p => p.data.category === activeFilter);
+  
+ 
+  const filters = projects.flatMap(x => x.data.category || []);
+  let uniquefilters = [...new Set(filters)];
+  uniquefilters.unshift('all');
 
-  const filters = ['all', 'data-engineering', 'data-analysis', 'web', 'tools'];
-
+ 
   return (
     <div>
       <div className="flex gap-4 mb-8 flex-wrap">
-        {filters.map(filter => (
+        {uniquefilters.map(filter => (
           <button
             key={filter}
             onClick={() => setActiveFilter(filter)}
