@@ -1,10 +1,8 @@
-// @ts-check
 import { defineConfig } from 'astro/config';
-import mdx from '@astrojs/mdx';
-import sitemap from '@astrojs/sitemap';
+import tailwind from '@astrojs/tailwind';
 
-// https://astro.build/config
+import react from '@astrojs/react';
+
 export default defineConfig({
-	site: 'https://haydenbrown.dev',
-	integrations: [mdx(), sitemap()],
+  integrations: [tailwind(), react()],
 });

@@ -1,79 +1,134 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
+import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
+import ProjectFilter from '../components/ProjectFilter';
 import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
-
 import { getCollection } from 'astro:content';
-import BlogPostPreview from '../components/BlogPostPreview.astro';
 
-const posts = (await getCollection('blog')).sort(
-  (a, b) => (b.data.pubDate?.valueOf() ?? 0) - (a.data.pubDate?.valueOf() ?? 0)
-);
-const recentPosts = posts.slice(0, 3); // Get the three most recent posts
+const projects = await getCollection('projects');
+const sortedProjects = projects.sort((a, b) => a.data.order - b.data.order);
+
+const experience = [
+  {
+    title: "Senior Data Analyst",
+    org: "CSEA Local 1000",
+    period: "Sep 2024 - Present",
+    location: "Albany, NY",
+     highlights: [
+      "Own Python ETL pipeline standardizing 1,400+ agency files, identifying 30K+ unreported union-eligible workers",
+      "Migrated data stack to AWS cloud: 6 databases, 1M+ historical records, zero data loss, 99.9% uptime",
+      "Architect production PostgreSQL schema replacing legacy system, defining core entities and hardware requirements",
+      "Serve as technical liaison between data team and union executives, translating business requirements into data architecture"
+    ]
+  },
+  {
+    title: "Data Analyst",
+    org: "CSEA Local 1000",
+    period: "Apr 2022 - Sep 2024",
+    location: "Albany, NY",
+     highlights: [
+      "Built 30+ live dashboards in SplashBI for organizing campaigns serving over 250K workers in NY",
+      "Security overhaul: refactored 300+ production PostgreSQL queries, eliminated SQL injection vulnerabilities",
+      "Designed Neo4j graph database modeling 1,800+ employers, enabling complex relationship queries"
+    ]
+  }
+];
+
+const skills = {
+  "Languages": ["Python", "SQL", "JavaScript", "Shell"],
+  "Data Engineering": ["ETL Pipelines", "Data Modeling", "Batch Processing"],
+  "Databases": ["PostgreSQL", "Redis", "MongoDB", "Neo4j", "InfluxDB"],
+  "Cloud & Infra": ["AWS (EC2, S3)", "Docker", "CI/CD"],
+  "Tools": ["Git", "Pandas", "NumPy", "scikit-learn", "SplashBI"]
+};
 ---
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-    <style>
-      main {
-        width: 720px;
-      }
+<Layout title="Hayden T. Brown - Data Engineer">
+  <Header />
+  
+  <main class="max-w-5xl mx-auto px-6 py-16 space-y-24">
+ 
+    <!-- Experience -->
+    <section>
+      <div class="border-b-2 border-stone-900 pb-4 mb-8">
+        <h2 class="text-3xl font-bold">Experience</h2>
+      </div>
+      
+      <div class="space-y-8">
+        {experience.map((job) => (
+          <div class="border-l-4 border-stone-900 pl-6">
+            <div class="mb-3">
+              <h3 class="text-xl font-bold">{job.title}</h3>
+              <p class="text-stone-700 font-mono text-sm">{job.org} · {job.period}</p>
+              <p class="text-stone-600 text-sm">{job.location}</p>
+            </div>
+            <ul class="space-y-2">
+              {job.highlights.map((highlight) => (
+                <li class="text-stone-700 flex">
+                  <span class="mr-3 text-stone-400">—</span>
+                  <span>{highlight}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </section>
 
-      .blog-list {
-        list-style: none; /* Remove bullet points */
-        padding: 0; /* Remove default padding */
-        margin: 0; /* Remove default margin */
-        flex-direction: column;
-        width: 100%;
-      }
-      hr {
-        width: 100%;
-      }
-      #cursor {
-        display: inline-block;
-        /* width: 1rem; */
-        animation: blink 1.5s step-end infinite;
-      }
-      @keyframes blink {
-        50% {
-          opacity: 0;
-        }
-      }
-      @media (max-width: 720px) {
-        .blog-list {
-          align-items: center;
-          display: flex;
-          flex-direction: column;
-        }
-        h4 {
-          width: 100%;
-          text-align: center;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <Header />
-    <main>
-      <h1>~$ hello, world<span id="cursor">▓</span></h1>
-      <p>
-        welcome! i'm hayden. this is a digital space for my projects, thoughts,
-        and documenting my professional journey.
-      </p>
-      <p>
-        if you enjoy reading about experiences with media, art, and tech, or
-        just want to see what i've been working on lately, check out my blog:
-      </p>
-      <hr />
-      <h2>recent posts</h2>
-      <ul class="blog-list">
-        {recentPosts.map((post) => <BlogPostPreview post={post} />)}
-      </ul>
-      <hr />
-      <Footer />
-    </main>
-  </body>
-</html>
+    <!-- Skills -->
+    <section>
+      <div class="border-b-2 border-stone-900 pb-4 mb-8">
+        <h2 class="text-3xl font-bold">Enterprise Skills</h2>
+      </div>
+      
+      <div class="grid md:grid-cols-2 gap-6">
+        {Object.entries(skills).map(([category, items]) => (
+          <div>
+            <h3 class="font-bold text-sm font-mono text-stone-600 mb-3 uppercase tracking-wide">
+              {category}
+            </h3>
+            <div class="flex flex-wrap gap-2">
+              {items.map((skill) => (
+                <span class="px-3 py-1 text-sm bg-amber-50 text-stone-800 border border-stone-300">
+                  {skill}
+                </span>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section>
+      <div class="border-b-2 border-stone-900 pb-4 mb-8">
+        <h2 class="text-3xl font-bold">Education</h2>
+      </div>
+      
+      <div class="grid md:grid-cols-2 gap-6">
+        <div>
+          <h3 class="text-xl font-bold">Georgia Institute of Technology</h3>
+          <p class="text-stone-700">M.S. Computer Science (Computing Systems)</p>
+          <p class="text-stone-600 text-sm font-mono">Expected May 2028</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold">Binghamton University</h3>
+          <p class="text-stone-700">B.S. Computer Science · B.A. Mathematical Sciences</p>
+          <p class="text-stone-600 text-sm font-mono">May 2020</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section>
+      <div class="border-b-2 border-stone-900 pb-4 mb-8">
+        <h2 class="text-3xl font-bold">Projects</h2>
+      </div>
+      
+      <ProjectFilter client:load projects={sortedProjects} />
+    </section>
+  
+  </main>
+
+  <Footer />
+</Layout>
