@@ -14,10 +14,11 @@ const experience = [
     org: "CSEA Local 1000",
     period: "Sep 2024 - Present",
     location: "Albany, NY",
-    highlights: [
-      "Own Python ETL pipeline standardizing 1,400+ agency files",
-      "AWS cloud migration: 160K+ records, 99.9% uptime, zero data loss",
-      "Architect PostgreSQL schema replacing legacy UnionWare system"
+     highlights: [
+      "Own Python ETL pipeline standardizing 1,400+ agency files, identifying 30K+ unreported union-eligible workers",
+      "Migrated data stack to AWS cloud: 6 databases, 1M+ historical records, zero data loss, 99.9% uptime",
+      "Architect production PostgreSQL schema replacing legacy system, defining core entities and hardware requirements",
+      "Serve as technical liaison between data team and union executives, translating business requirements into data architecture"
     ]
   },
   {
@@ -25,20 +26,20 @@ const experience = [
     org: "CSEA Local 1000",
     period: "Apr 2022 - Sep 2024",
     location: "Albany, NY",
-    highlights: [
-      "Built 30+ live dashboards for organizing campaigns (200K+ workers)",
-      "Security overhaul: refactored 300+ queries, eliminated SQL injection",
-      "Designed Neo4j graph DB for 1,800+ employer relationships"
+     highlights: [
+      "Built 30+ live dashboards in SplashBI for organizing campaigns serving over 250K workers in NY",
+      "Security overhaul: refactored 300+ production PostgreSQL queries, eliminated SQL injection vulnerabilities",
+      "Designed Neo4j graph database modeling 1,800+ employers, enabling complex relationship queries"
     ]
   }
 ];
 
 const skills = {
-  "Languages": ["Python", "SQL", "JavaScript", "Shell", "Rust"],
+  "Languages": ["Python", "SQL", "JavaScript", "Shell"],
   "Data Engineering": ["ETL Pipelines", "Data Modeling", "Batch Processing"],
   "Databases": ["PostgreSQL", "Redis", "MongoDB", "Neo4j", "InfluxDB"],
   "Cloud & Infra": ["AWS (EC2, S3)", "Docker", "CI/CD"],
-  "Tools": ["Git", "Pandas", "NumPy", "scikit-learn", "PyTorch"]
+  "Tools": ["Git", "Pandas", "NumPy", "scikit-learn", "SplashBI"]
 };
 ---
 
@@ -46,15 +47,7 @@ const skills = {
   <Header />
   
   <main class="max-w-5xl mx-auto px-6 py-16 space-y-24">
-    <!-- Projects -->
-    <section>
-      <div class="border-b-2 border-stone-900 pb-4 mb-8">
-        <h2 class="text-3xl font-bold">Projects</h2>
-      </div>
-      
-      <ProjectFilter client:load projects={sortedProjects} />
-    </section>
-
+ 
     <!-- Experience -->
     <section>
       <div class="border-b-2 border-stone-900 pb-4 mb-8">
@@ -85,7 +78,7 @@ const skills = {
     <!-- Skills -->
     <section>
       <div class="border-b-2 border-stone-900 pb-4 mb-8">
-        <h2 class="text-3xl font-bold">Skills</h2>
+        <h2 class="text-3xl font-bold">Enterprise Skills</h2>
       </div>
       
       <div class="grid md:grid-cols-2 gap-6">
@@ -112,7 +105,7 @@ const skills = {
         <h2 class="text-3xl font-bold">Education</h2>
       </div>
       
-      <div class="space-y-6">
+      <div class="grid md:grid-cols-2 gap-6">
         <div>
           <h3 class="text-xl font-bold">Georgia Institute of Technology</h3>
           <p class="text-stone-700">M.S. Computer Science (Computing Systems)</p>
@@ -125,6 +118,16 @@ const skills = {
         </div>
       </div>
     </section>
+
+    <!-- Projects -->
+    <section>
+      <div class="border-b-2 border-stone-900 pb-4 mb-8">
+        <h2 class="text-3xl font-bold">Projects</h2>
+      </div>
+      
+      <ProjectFilter client:load projects={sortedProjects} />
+    </section>
+  
   </main>
 
   <Footer />
