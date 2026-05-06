@@ -10,15 +10,15 @@ const sortedProjects = projects.sort((a, b) => a.data.order - b.data.order);
 
 const experience = [
   {
-    title: "Senior Data Analyst",
+    title: "Senior Data Analyst/Engineer",
     org: "CSEA Local 1000",
     period: "Sep 2024 - Present",
     location: "Albany, NY",
-     highlights: [
-      "Own Python ETL pipeline standardizing 1,400+ agency files, identifying 30K+ unreported union-eligible workers",
-      "Migrated data stack to AWS cloud: 6 databases, 1M+ historical records, zero data loss, 99.9% uptime",
-      "Architect production PostgreSQL schema replacing legacy system, defining core entities and hardware requirements",
-      "Serve as technical liaison between data team and union executives, translating business requirements into data architecture"
+    highlights: [
+      "Own Python ETL pipeline standardizing files from 1,400+ government agencies, surfacing 30,000+ previously unreported union-eligible workers for targeted organizing",
+      "Manage AWS infrastructure supporting 160,000+ member records, serving as internal point of contact for cloud operations and vendor coordination",
+      "Architect production Salesforce schema to replace legacy UnionWare system, defining entity relationships for operational workloads",
+      "Lead migration of 25+ years of legacy cron jobs into an observable, centralized Dagster DAG cascade"
     ]
   },
   {
@@ -26,21 +26,35 @@ const experience = [
     org: "CSEA Local 1000",
     period: "Apr 2022 - Sep 2024",
     location: "Albany, NY",
-     highlights: [
-      "Built 30+ live dashboards in SplashBI for organizing campaigns serving over 250K workers in NY",
-      "Security overhaul: refactored 300+ production PostgreSQL queries, eliminated SQL injection vulnerabilities",
-      "Designed Neo4j graph database modeling 1,800+ employers, enabling complex relationship queries"
+    highlights: [
+      "Built and maintained 30+ live SplashBI dashboards powering outreach campaigns for a union steering committee representing 200,000+ workers",
+      "Led security overhaul of legacy Node.js application, refactoring 300+ PostgreSQL queries to eliminate SQL injection vulnerabilities in member-facing systems",
+      "Designed Neo4j graph database modeling complex many-to-many relationships across 1,800+ employers, creating navigable knowledge base of union organizational structure"
     ]
   }
 ];
 
 const skills = {
-  "Languages": ["Python", "SQL", "JavaScript", "Shell"],
-  "Data Engineering": ["ETL Pipelines", "Data Modeling", "Batch Processing"],
-  "Databases": ["PostgreSQL", "Redis", "MongoDB", "Neo4j", "InfluxDB"],
-  "Cloud & Infra": ["AWS (EC2, S3)", "Docker", "CI/CD"],
-  "Tools": ["Git", "Pandas", "NumPy", "scikit-learn", "SplashBI"]
+  "Languages": ["Python", "SQL", "JavaScript (Node.js)", "Shell"],
+  "Databases": ["PostgreSQL", "Redis", "MongoDB", "Neo4j"],
+  "Cloud & Infrastructure": ["AWS (EC2, S3)", "Docker"],
+  "Orchestration & DevOps": ["Airflow", "Dagster", "CI/CD"],
+  "Visualization": ["QuickSight", "SplashBI", "Grafana"],
+  "Data Processing & ML": ["Pandas", "NumPy", "scikit-learn", "PyTorch"]
 };
+
+
+const certifications = [
+  {
+    name: "AWS Certified Data Engineer - Associate",
+    status: "Expected August 2026"
+  },
+  {
+    name: "AWS Certified Cloud Practitioner",
+    status: "April 2026"
+  }
+];
+
 ---
 
 <Layout title="Hayden T. Brown - Data Engineer">
@@ -117,6 +131,22 @@ const skills = {
           <p class="text-stone-600 text-sm font-mono">May 2020</p>
         </div>
       </div>
+    </section>
+
+    <!-- Certifications -->
+    <section>
+        <div class="border-b-2 border-stone-900 pb-4 mb-8">
+            <h2 class="text-3xl font-bold">Certifications</h2>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6">
+            {certifications.map((cert) => (
+            <div>
+                <h3 class="text-xl font-bold">{cert.name}</h3>
+                <p class="text-stone-600 text-sm font-mono">{cert.status}</p>
+            </div>
+            ))}
+        </div>
     </section>
 
     <!-- Projects -->
