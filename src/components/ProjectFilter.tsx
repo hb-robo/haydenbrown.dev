@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 interface Project {
-  slug: string;
+  id: string;
   data: {
     title: string;
     status: string;
@@ -47,7 +47,7 @@ export default function ProjectFilter({ projects }: { projects: Project[] }) {
 
       <div className="grid gap-6">
         {filteredProjects.map((project) => (
-          <div key={project.slug} className="border-2 border-stone-900 bg-white p-6">
+          <div key={project.id} className="border-2 border-stone-900 bg-white p-6">
             <div className="flex items-start justify-between mb-3">
               <div>
                 <h3 className="text-xl font-bold">{project.data.title}</h3>
