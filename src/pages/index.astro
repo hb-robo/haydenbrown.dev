@@ -1,134 +1,78 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Header from '../components/Header.astro';
-import ProjectFilter from '../components/ProjectFilter';
-import Footer from '../components/Footer.astro';
-import { getCollection } from 'astro:content';
-
-const projects = await getCollection('projects');
-const sortedProjects = projects.sort((a, b) => a.data.order - b.data.order);
-
-const experience = [
-  {
-    title: "Senior Data Analyst",
-    org: "CSEA Local 1000",
-    period: "Sep 2024 - Present",
-    location: "Albany, NY",
-     highlights: [
-      "Own Python ETL pipeline standardizing 1,400+ agency files, identifying 30K+ unreported union-eligible workers",
-      "Migrated data stack to AWS cloud: 6 databases, 1M+ historical records, zero data loss, 99.9% uptime",
-      "Architect production PostgreSQL schema replacing legacy system, defining core entities and hardware requirements",
-      "Serve as technical liaison between data team and union executives, translating business requirements into data architecture"
-    ]
-  },
-  {
-    title: "Data Analyst",
-    org: "CSEA Local 1000",
-    period: "Apr 2022 - Sep 2024",
-    location: "Albany, NY",
-     highlights: [
-      "Built 30+ live dashboards in SplashBI for organizing campaigns serving over 250K workers in NY",
-      "Security overhaul: refactored 300+ production PostgreSQL queries, eliminated SQL injection vulnerabilities",
-      "Designed Neo4j graph database modeling 1,800+ employers, enabling complex relationship queries"
-    ]
-  }
-];
-
-const skills = {
-  "Languages": ["Python", "SQL", "JavaScript", "Shell"],
-  "Data Engineering": ["ETL Pipelines", "Data Modeling", "Batch Processing"],
-  "Databases": ["PostgreSQL", "Redis", "MongoDB", "Neo4j", "InfluxDB"],
-  "Cloud & Infra": ["AWS (EC2, S3)", "Docker", "CI/CD"],
-  "Tools": ["Git", "Pandas", "NumPy", "scikit-learn", "SplashBI"]
-};
+import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title="Hayden T. Brown - Data Engineer">
-  <Header />
-  
-  <main class="max-w-5xl mx-auto px-6 py-16 space-y-24">
- 
-    <!-- Experience -->
-    <section>
-      <div class="border-b-2 border-stone-900 pb-4 mb-8">
-        <h2 class="text-3xl font-bold">Experience</h2>
+<Layout title="hayden brown">
+  <main class="min-h-screen flex items-center justify-center px-6 py-16 font-mono bg-amber-50">
+    <div class="w-full max-w-xl">
+
+      <div class="mb-10">
+        <h1 class="text-xl text-zinc-900 mb-1">
+          hayden brown
+        </h1>
+        <p class="text-base text-zinc-500">
+          data engineer · ny
+        </p>
       </div>
-      
-      <div class="space-y-8">
-        {experience.map((job) => (
-          <div class="border-l-4 border-stone-900 pl-6">
-            <div class="mb-3">
-              <h3 class="text-xl font-bold">{job.title}</h3>
-              <p class="text-stone-700 font-mono text-sm">{job.org} · {job.period}</p>
-              <p class="text-stone-600 text-sm">{job.location}</p>
-            </div>
-            <ul class="space-y-2">
-              {job.highlights.map((highlight) => (
-                <li class="text-stone-700 flex">
-                  <span class="mr-3 text-stone-400">—</span>
-                  <span>{highlight}</span>
-                </li>
-              ))}
-            </ul>
+
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-2">
+
+        <a
+          href="/cv"
+          class="group block border border-zinc-200 rounded-lg p-4 hover:border-zinc-400 transition-colors duration-150 bg-stone-50"
+        >
+          <p class="text-xs uppercase tracking-widest text-zinc-400 mb-3">
+            work
+          </p>
+          <p class="text-base font-medium text-zinc-900 mb-1.5">
+            cv
+          </p>
+          <p class="text-sm text-zinc-500 leading-relaxed">
+            experience, skills, education
+          </p>
+          <p class="text-xs text-zinc-400 mt-4 flex items-center gap-1">
+            <span>/cv</span>
+            <span class="group-hover:translate-x-0.5 transition-transform duration-150">→</span>
+          </p>
+        </a>
+
+        <div class="block border border-zinc-200 rounded-lg p-4 bg-emerald-50 opacity-60 cursor-not-allowed">
+          <div class="flex items-center justify-between mb-3">
+            <p class="text-xs uppercase tracking-widest text-zinc-400">
+              data
+            </p>
+            <span class="text-xs font-mono text-amber-600 border border-amber-300 bg-amber-50 px-1.5 py-0.5 rounded">in progress</span>
           </div>
-        ))}
-      </div>
-    </section>
+          <p class="text-base font-medium text-zinc-900 mb-1.5">
+            hb-db
+          </p>
+          <p class="text-sm text-zinc-500 leading-relaxed">
+            live personal dashboard
+          </p>
+          <p class="text-xs text-zinc-400 mt-4">
+            <span>/data</span>
+          </p>
+        </div>
 
-    <!-- Skills -->
-    <section>
-      <div class="border-b-2 border-stone-900 pb-4 mb-8">
-        <h2 class="text-3xl font-bold">Enterprise Skills</h2>
-      </div>
-      
-      <div class="grid md:grid-cols-2 gap-6">
-        {Object.entries(skills).map(([category, items]) => (
-          <div>
-            <h3 class="font-bold text-sm font-mono text-stone-600 mb-3 uppercase tracking-wide">
-              {category}
-            </h3>
-            <div class="flex flex-wrap gap-2">
-              {items.map((skill) => (
-                <span class="px-3 py-1 text-sm bg-amber-50 text-stone-800 border border-stone-300">
-                  {skill}
-                </span>
-              ))}
-            </div>
+        <div class="block border border-zinc-200 rounded-lg p-4 bg-sky-50 opacity-60 cursor-not-allowed">
+          <div class="flex items-center justify-between mb-3">
+            <p class="text-xs uppercase tracking-widest text-zinc-400">
+              writing
+            </p>
+            <span class="text-xs font-mono text-amber-600 border border-amber-300 bg-amber-50 px-1.5 py-0.5 rounded">in progress</span>
           </div>
-        ))}
-      </div>
-    </section>
-
-    <!-- Education -->
-    <section>
-      <div class="border-b-2 border-stone-900 pb-4 mb-8">
-        <h2 class="text-3xl font-bold">Education</h2>
-      </div>
-      
-      <div class="grid md:grid-cols-2 gap-6">
-        <div>
-          <h3 class="text-xl font-bold">Georgia Institute of Technology</h3>
-          <p class="text-stone-700">M.S. Computer Science (Computing Systems)</p>
-          <p class="text-stone-600 text-sm font-mono">Expected May 2028</p>
+          <p class="text-base font-medium text-zinc-900 mb-1.5">
+            the shelf
+          </p>
+          <p class="text-sm text-zinc-500 leading-relaxed">
+            art criticism for physical media
+          </p>
+          <p class="text-xs text-zinc-400 mt-4">
+            <span>theshelf.blog</span>
+          </p>
         </div>
-        <div>
-          <h3 class="text-xl font-bold">Binghamton University</h3>
-          <p class="text-stone-700">B.S. Computer Science · B.A. Mathematical Sciences</p>
-          <p class="text-stone-600 text-sm font-mono">May 2020</p>
-        </div>
-      </div>
-    </section>
 
-    <!-- Projects -->
-    <section>
-      <div class="border-b-2 border-stone-900 pb-4 mb-8">
-        <h2 class="text-3xl font-bold">Projects</h2>
       </div>
-      
-      <ProjectFilter client:load projects={sortedProjects} />
-    </section>
-  
+    </div>
   </main>
-
-  <Footer />
 </Layout>
