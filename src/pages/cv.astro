@@ -12,42 +12,42 @@ const sortedProjects = projects.sort((a, b) => a.data.order - b.data.order);
 
 const experience = [
   {
-    title: "senior data analyst/engineer",
-    org: "csea local 1000",
-    period: "sep 2024 – present",
-    location: "albany, ny",
+    title: 'senior data analyst/engineer',
+    org: 'csea local 1000',
+    period: 'sep 2024 – present',
+    location: 'albany, ny',
     highlights: [
-      "Own Python ETL pipeline standardizing files from 1,400+ government agencies, surfacing 30,000+ previously unreported union-eligible workers for targeted organizing",
-      "Manage AWS infrastructure supporting 160,000+ member records, serving as internal point of contact for cloud operations and vendor coordination",
-      "Architect production Salesforce schema to replace legacy UnionWare system, defining entity relationships for operational workloads",
-      "Lead migration of 25+ years of legacy cron jobs into an observable, centralized Dagster DAG cascade"
-    ]
+      'Own Python ETL pipeline standardizing files from 1,400+ government agencies, surfacing 30,000+ previously unreported union-eligible workers for targeted organizing',
+      'Manage AWS infrastructure supporting 160,000+ member records, serving as internal point of contact for cloud operations and vendor coordination',
+      'Architect production Salesforce schema to replace legacy UnionWare system, defining entity relationships for operational workloads',
+      'Lead migration of 25+ years of legacy cron jobs into an observable, centralized Dagster DAG cascade',
+    ],
   },
   {
-    title: "data analyst",
-    org: "csea local 1000",
-    period: "apr 2022 – sep 2024",
-    location: "albany, ny",
+    title: 'data analyst',
+    org: 'csea local 1000',
+    period: 'apr 2022 – sep 2024',
+    location: 'albany, ny',
     highlights: [
-      "Built and maintained 30+ live SplashBI dashboards powering outreach campaigns for a union steering committee representing 200,000+ workers",
-      "Led security overhaul of legacy Node.js application, refactoring 300+ PostgreSQL queries to eliminate SQL injection vulnerabilities in member-facing systems",
-      "Designed Neo4j graph database modeling complex many-to-many relationships across 1,800+ employers, creating navigable knowledge base of union organizational structure"
-    ]
-  }
+      'Built and maintained 30+ live SplashBI dashboards powering outreach campaigns for a union steering committee representing 200,000+ workers',
+      'Led security overhaul of legacy Node.js application, refactoring 300+ PostgreSQL queries to eliminate SQL injection vulnerabilities in member-facing systems',
+      'Designed Neo4j graph database modeling complex many-to-many relationships across 1,800+ employers, creating navigable knowledge base of union organizational structure',
+    ],
+  },
 ];
 
 const skills: Record<string, string[]> = {
-  "languages":       ["Python", "SQL", "JavaScript (Node.js)", "Shell"],
-  "databases":       ["PostgreSQL", "Redis", "MongoDB", "Neo4j"],
-  "cloud & infra":   ["AWS (EC2, S3)", "Docker"],
-  "orchestration":   ["Airflow", "Dagster", "CI/CD"],
-  "visualization":   ["QuickSight", "SplashBI", "Grafana"],
-  "data & ml":       ["Pandas", "NumPy", "scikit-learn", "PyTorch"],
+  'languages': ['Python', 'SQL', 'JavaScript (Node.js)', 'Shell'],
+  'databases': ['PostgreSQL', 'Redis', 'MongoDB', 'Neo4j'],
+  'cloud & infra': ['AWS (EC2, S3)', 'Docker'],
+  'orchestration': ['Airflow', 'Dagster', 'CI/CD'],
+  'visualization': ['QuickSight', 'SplashBI', 'Grafana'],
+  'data & ml': ['Pandas', 'NumPy', 'scikit-learn', 'PyTorch'],
 };
 
 const certifications = [
-  { name: "AWS Certified Data Engineer – Associate", status: "expected august 2026" },
-  { name: "AWS Certified Cloud Practitioner",        status: "april 2026" },
+  { name: 'AWS Certified Data Engineer – Associate', status: 'expected august 2026' },
+  { name: 'AWS Certified Cloud Practitioner', status: 'april 2026' },
 ];
 ---
 
@@ -67,9 +67,12 @@ const certifications = [
           <br>Currently @ NY's largest labor union; OMSCS student @ Georgia Tech
         </p>
         <div class="flex flex-wrap gap-6 text-xs text-zinc-400">
-          <a href="&#109;&#97;&#105;&#108;to&#58;me&#64;hay%64&#101;nbr&#37;6Fw&#37;6E&#46;dev" class="hover:text-zinc-600 transition-colors">me@haydenbrown.dev</a>
-          <a href="https://linkedin.com/in/hayden-t-brown" target="_blank" rel="noopener noreferrer" class="hover:text-zinc-600 transition-colors">linkedin</a>
-          <a href="https://github.com/hb-robo" target="_blank" rel="noopener noreferrer" class="hover:text-zinc-600 transition-colors">github</a>
+          <a href="&#109;&#97;&#105;&#108;to&#58;me&#64;hay%64&#101;nbr&#37;6Fw&#37;6E&#46;dev"
+             class="hover:text-zinc-600 transition-colors">me@haydenbrown.dev</a>
+          <a href="https://linkedin.com/in/hayden-t-brown" target="_blank" rel="noopener noreferrer"
+             class="hover:text-zinc-600 transition-colors">linkedin</a>
+          <a href="https://github.com/hb-robo" target="_blank" rel="noopener noreferrer"
+             class="hover:text-zinc-600 transition-colors">github</a>
         </div>
       </div>
 
