@@ -47,7 +47,8 @@ export default function ProjectFilter({ projects }: { projects: Project[] }) {
             ? { href: project.data.link, target: '_blank', rel: 'noopener noreferrer' }
             : {};
           return (
-            <Card key={project.id} {...cardProps} className={`block border border-zinc-200 p-4 ${project.data.link ? 'hover:border-zinc-400 transition-colors' : ''}`}>
+            <Card key={project.id} {...cardProps}
+                  className={`block border border-zinc-200 p-4 ${project.data.link ? 'hover:border-zinc-400 transition-colors' : ''}`}>
               <div className="flex items-start justify-between mb-2">
                 <div>
                   <p className="text-sm text-zinc-900">{project.data.title}</p>
@@ -55,14 +56,15 @@ export default function ProjectFilter({ projects }: { projects: Project[] }) {
                     project.data.status === 'production'
                       ? 'border-green-300 text-green-600'
                       : project.data.status === 'in-progress'
-                      ? 'border-amber-300 text-amber-600'
-                      : 'border-zinc-200 text-zinc-400'
+                        ? 'border-amber-300 text-amber-600'
+                        : 'border-zinc-200 text-zinc-400'
                   }`}>
                     {project.data.status}
                   </span>
                 </div>
                 {project.data.link && (
-                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-zinc-300 mt-0.5 shrink-0">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
+                       className="text-zinc-300 mt-0.5 shrink-0">
                     <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
                     <polyline points="15 3 21 3 21 9" />
                     <line x1="10" y1="14" x2="21" y2="3" />

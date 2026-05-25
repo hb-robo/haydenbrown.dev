@@ -14,7 +14,7 @@ const { title, status, tags, description, link } = Astro.props;
 const statusStyles = {
   production: 'border-green-700 text-green-700 bg-green-50',
   'in-progress': 'border-amber-700 text-amber-700 bg-amber-50',
-  planned: 'border-stone-400 text-stone-600 bg-stone-50'
+  planned: 'border-stone-400 text-stone-600 bg-stone-50',
 };
 ---
 
@@ -27,7 +27,8 @@ const statusStyles = {
       </span>
     </div>
     {link && (
-      <a href={link} target="_blank" rel="noopener noreferrer" class="text-stone-700 hover:text-stone-900 transition-colors">
+      <a href={link} target="_blank" rel="noopener noreferrer"
+         class="text-stone-700 hover:text-stone-900 transition-colors">
         <ExternalLink size={20} />
       </a>
     )}
