@@ -3,7 +3,12 @@ import { Mail, Linkedin, Github } from 'lucide-react';
 
 const careerStartDate = new Date('2022-04-11');
 const today = new Date();
-const yearsExperience = Math.floor((today - careerStartDate) / (1000 * 60 * 60 * 24 * 365.25));
+let yearsExperience = today.getFullYear() - careerStartDate.getFullYear();
+const m = today.getMonth() - careerStartDate.getMonth();
+
+if (m < 0 || (m === 0 && today.getDate() < careerStartDate.getDate())) {
+  yearsExperience--;
+}
 ---
 
 <header class="border-b-2 border-stone-900 bg-amber-50">
