@@ -10,4 +10,5 @@ export default defineConfig({
       include: ['react-dom/client'],
     },
   },
+  site: 'https://haydenbrown.dev',
 });
